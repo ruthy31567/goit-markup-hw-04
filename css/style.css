@@ -89,7 +89,7 @@ li {
 .nav-menu .headers:focus,
 .nav-menu .headers .current:hover,
 .contact-menu .item:hover,
-.contact-menu .item:focus,
+.contact-menu .item:focus, 
 .icon:hover {
   fill: var(--accent-color);
   color: var(--accent-color);
