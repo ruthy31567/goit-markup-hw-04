@@ -25,7 +25,7 @@ body {
 
 .container {
   margin: 0 auto;
-  padding-left: 15px;
+  /* padding-left: 15px; */
   padding-right: 15px;
   width: 1200px;
 }
@@ -89,7 +89,9 @@ li {
 .nav-menu .headers:focus,
 .nav-menu .headers .current:hover,
 .contact-menu .item:hover,
-.contact-menu .item:focus {
+.contact-menu .item:focus,
+.icon:hover {
+  fill: var(--accent-color);
   color: var(--accent-color);
 }
 
@@ -293,7 +295,7 @@ gap: 30px;
 }
 .clients-icon{
   width:170px;
-  height: 81px;
+  height: 60px;
   border: 1px solid var(--primery-text-color);
   border-radius: 4px;
 }
